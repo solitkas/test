@@ -6,3 +6,4 @@ def new_func():
     pass
 
 
+b = 1
