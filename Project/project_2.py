@@ -4,7 +4,6 @@ from typing import List, Any
 test_words = ["tea", "eat", "bat", "ate", "arc", "car"]
 
 
-
 def group_anagrams(words: List[str]) -> [list, Any]:
     dfdict = defaultdict(list)
     for i in words:
