@@ -11,7 +11,7 @@ def group_anagrams(words: List[str]) -> [list, Any]:
         dfdict[sorted_i].append(i)
     return dfdict.values()
 
-
+# 2 method
 def anagrams(words: List[str]) -> dict:
     array = {}
     for i in words:
