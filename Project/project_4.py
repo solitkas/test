@@ -17,6 +17,7 @@ def benchmark(func):
 
 @benchmark
 def test_func() -> str:
+    """Создания акронимов"""
     import time
     word = "Artificial Intelligence"
     text = word.split()
