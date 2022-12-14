@@ -25,7 +25,7 @@ def test_func() -> str:
     text = word.split()
     a = " "
     for i in text:
-        a = a + str(i[0]).upper()
+        a += str(i[0]).upper()
     time.sleep(2)
     return a.strip()
 
