@@ -11,6 +11,7 @@ qr_code.png("test.png", scale=5)
 # pip install pyzbar
 # pip install pillow
 def Decode(png: str):
+# png: "test.png"
     from pyzbar.pyzbar import decode
     from PIL import Image
     decode_qr = decode(Image.open(png))
