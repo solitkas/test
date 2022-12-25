@@ -1,3 +1,6 @@
+# pip install PyQRCode
+# pip install pypng
+
 import pyqrcode
 link = "https://github.com/solitkas"
 qr_code = pyqrcode.create(link)
